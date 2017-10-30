@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style type="text/css">
+			li {
+				list-style-type: none;
+				display: inline-block;
+				width: 23%;
+				text-align: center;
+			}
+			div{
+				height: 400px;
+				width: 800px;
+				
+			}
+			
+			.makeBlue{
+				color: rgb(20,0,200);
+			}
+			.overImage{
+				border: solid 3px orange;
+				width: 500px;
+
+			}
+			/*Affects img inside of element with "overImage" class*/
+			.overImage img{
+				width: 100%;
+				height: 400px;
+			}
+			.overImage h1{
+				position: relative;
+				top: 200px;
+				text-align: center;
+			}
+		</style>
+			
+		
+	</head>
+	<body>
+		
+		<ul style="border: solid 5px black">
+			<li><a href="#static" style="">Static</a></li>
+			<li><a href="#absolute"> absolute</li>
+			<li>fixed</li>
+			<li><a href="#relative"> relative</li>
+		</ul>
+
+		<aside class="overImage">
+			<h1 class="makeBlue">What Text?</h1>
+		<img src="https://www.dollartree.com/assets/product_images_2016/styles/alternate_large/174788.jpg">
+		</aside>
+
+		<aside class="overImage">
+			<h1>Rubber Ducky</h1>
+			<img src="https://www.thecoverguy.com/wp-content/uploads/2016/08/126.jpg">
+		</aside>
+		
+		<div id="static" style="background-color: #00ff00">
+			<h1>Static</h1>
+		</div>
+
+		<div id="absolute" style="position: absolute; background-color: rgb(255,0,0); top: 900px; left: 200px;">
+			<h1>Abosolute</h1>
+		</div>
+
+		<div id="fixed" style="position: fixed; 
+		background-color: #FF00AA; top: 300px; left: 1000px;">
+			<h1>Fixed</h1>
+		</div>
+
+		<div id="relative" style="position: relative;
+		background-color: #CCAD01; top: 10px;">		
+			<h1>Relative</h1>
+		</div>
+
+		<br></br><br></br><br></br><br></br><br></br><br></br>
+		<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+
+	</body>
+	</html>
